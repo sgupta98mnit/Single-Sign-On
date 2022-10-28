@@ -1,0 +1,28 @@
+{
+  "name": "single-sign-on",
+  "version": "1.0.0",
+  "description": "Single Sign On",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgupta98mnit/Single-Sign-On.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgupta98mnit/Single-Sign-On/issues"
+  },
+  "homepage": "https://github.com/sgupta98mnit/Single-Sign-On#readme",
+  "dependencies": {
+    "cognito-passport-oauth2": "^1.1.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-cognito-oauth2": "^0.1.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-oauth2-cognito": "^0.1.0"
+  }
+}
