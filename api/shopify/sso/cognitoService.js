@@ -13,9 +13,10 @@ const options = {
 
 module.exports = function(app, passport) {
   function verify(accessToken, refreshToken, profile, done) {
-    for (const [key, value] of Object.entries(accessToken)) {
-      console.log(`${key}: \n`);
-    }
+    // for (const [key, value] of Object.entries(accessToken)) {
+    //   console.log(`${key}: \n`);
+    // }
+    console.log(accessToken);
       console.log("refresh token: " + refreshToken);
       console.log("profile: " + profile);
       // done(err, user);
