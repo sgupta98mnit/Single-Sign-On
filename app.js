@@ -5,6 +5,10 @@ const session = require('express-session')
 var CognitoService = require("./api/shopify/sso/cognitoService");
 var googleService = require("./api/shopify/sso/googleService");
 const passport = require('passport');
+const client = require('./datbase');
+
+client.connect();
+
 app.use(session({
   secret: "secret",
   resave: false ,
