@@ -6,4 +6,6 @@ const client  = new Client({
     connectionString
 })
 
+console.log("testing commit from anurag ");
+
 module.export = client;
